@@ -1,0 +1,17 @@
+@use "~bootstrap/scss/bootstrap";
+
+
+.liked {
+  color: grey;
+  & a {
+    color: red;
+  }
+}
+
+.book_comment {
+  width: 100%;
+}
+.avatar {
+  display: inline-block;
+  vertical-align: middle;
+}
